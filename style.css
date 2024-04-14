@@ -1,0 +1,149 @@
+*{
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    scroll-behavior: smooth;
+    --dbbg: rgb(2,17,23);
+}
+
+#navmore{
+    background-color: rgb(54,179,235) !important;
+    
+}
+.logo{
+    width: 350px;
+}
+#navstyle{
+    background-color: var(--dbbg);
+    margin-top: -10px;
+}
+.navbtns{
+    color: white !important; 
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+}
+
+#homebtn{
+    margin-left: 90px;
+}
+.navbtns:hover{
+    color: yellow !important;
+}
+
+#home{
+    margin-top: -10px;
+    width: 100%;
+    height: 86.8vh;
+    background-image: url('./Media/home.jpg');
+    background-size: cover;
+}
+#homecont{
+    font-family: "Encode Sans Expanded", sans-serif;
+    font-size: 25px;
+}
+#applink{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+.applink:target{
+    background-color: orangered;
+    border-color: orangered;
+}
+.offhead{
+    background-color: var(--dbbg);
+}
+.appbody{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+.appbody button{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    background-color: var(--dbbg);
+}
+.appopt{
+    text-decoration: none;
+    font-family: "Poppins", sans-serif !important;
+    font-weight: 700 !important;
+    font-size: 18px !important;
+    background-color: var(--dbbg) !important;
+}
+.appopt:hover{
+    background-color: white !important;
+    font-size: 22px !important;
+    color: var(--dbbg) !important;
+    border: 1px solid var(--dbbg) !important;
+}
+#about{
+    width: 100%;
+    height: 50px;
+}
+#abthead{
+    text-align: center;
+    font-size: 80px;
+}
+.abtcont p{
+    text-align: justify;
+    color: rgb(82, 82, 82);
+}
+.abtcont span{
+    color: black;
+    font-weight: bold;
+}
+.abtimg{
+    border: 4px solid rgb(82, 82, 82);
+    height: 300px;
+    width: 100%;
+}
+#helpine{
+    height: 100vh;
+    width: 100%;
+    background-image: url('./Media/helpline.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.callbox{
+    background-color: rgba(0, 0, 0, 0.527);
+    width: 60%;
+    padding: 20px;
+    border-radius: 8px;
+}
+.callbox i{
+    color: white;
+    animation: shake 1.5s infinite;
+    text-align: center;
+}
+.callbox ul{
+    list-style: none;
+    color: white;
+    font-size: 10px;
+}
+@keyframes shake{
+    10%{
+        transform: rotate(15deg);
+    }
+    20%{
+        transform: rotate(-15deg);
+    }
+    30%{
+        transform: rotate(15deg);
+    }
+    40%{
+        transform: rotate(-15deg);
+    }
+}
+#suggest{
+    background-color: var(--dbbg);
+    width: 100%;
+    height: 100vh;
+}
