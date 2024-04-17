@@ -101,7 +101,7 @@
     width: 100%;
 }
 #helpine{
-    height: 100vh;
+    padding: 100px;
     width: 100%;
     background-image: url('./Media/helpline.png');
     background-repeat: no-repeat;
@@ -146,4 +146,19 @@
     background-color: var(--dbbg);
     width: 100%;
     height: 100vh;
+    padding: 30px 70px;
+}
+@media(max-width:992px){
+    #helpline{
+        padding: 10px;
+    }
+    .callbox ul{
+        font-size: 5px;
+    }
+    .callbox i{
+        font-size: 40px;
+    }
+    .callbox h1{
+        font-size: 23px;
+    }
 }
