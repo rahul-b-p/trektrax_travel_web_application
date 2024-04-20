@@ -145,7 +145,7 @@
 #suggest{
     background-color: var(--dbbg);
     width: 100%;
-    height: 100vh;
+    /* height: 100vh; */
     padding: 30px 70px;
 }
 @media(max-width:992px){
@@ -161,4 +161,55 @@
     .callbox h1{
         font-size: 23px;
     }
+    .subsug{
+        width: 75% !important
+    }
+}
+.subsug{
+    width: 25%;
+}
+.footer{
+    background-color: var(--dbbg);
+}
+.social{
+    margin-top: 60px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.social a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    /* border: 1px solid; */
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+}
+.social a:hover{
+    color: #0d6efd;
+    background-color: white;
+    font-size: 45px;
+    animation: shake 1.5s infinite;
+}
+.appnav{
+    width: 60%;
+    height: 10vh;
+    background-color: var(--dbbg);
+    display: flex;
+    justify-content: space-between;
+}
+.appnav img{
+    width: 30%;
+}
+.appnav a{
+    text-decoration: none;
+    color: white !important; 
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
 }
