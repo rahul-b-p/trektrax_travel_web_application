@@ -213,3 +213,15 @@
     font-family: "Poppins", sans-serif;
     font-size: 20px;
 }
+
+@media(max-width:992px){
+    .appnav{
+        width: 90%
+    }
+    .appnav img{
+        width: 50%;
+    }
+    .appnav a{
+        font-size: 10px;
+    }
+}
