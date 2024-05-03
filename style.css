@@ -150,8 +150,8 @@
 }
 @media(max-width:992px){
     #applink{
-        font-size: 11px;
-        font-weight : 500;
+        font-size: 8px;
+        font-weight : 400;
     }
     #helpline{
         padding: 10px;
