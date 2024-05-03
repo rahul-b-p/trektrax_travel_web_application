@@ -302,7 +302,7 @@
 .card:hover{
     transform: scale(.9);
 }
-.btn:hover{
+.clk:hover{
     background-color: darkgreen !important;
 }
 .appimge{
