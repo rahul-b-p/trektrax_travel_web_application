@@ -101,7 +101,7 @@
     width: 100%;
 }
 #helpine{
-    padding: 100px;
+    padding: 50px;
     width: 100%;
     background-image: url('./Media/helpline.png');
     background-repeat: no-repeat;
@@ -115,33 +115,20 @@
 .callbox{
     background-color: rgba(0, 0, 0, 0.527);
     width: 60%;
-    padding: 20px;
+    padding: 0px;
     border-radius: 8px;
 }
-.callbox i{
-    color: white;
-    animation: shake 1.5s infinite;
+.cont{
     text-align: center;
+    color: white;
 }
+
 .callbox ul{
     list-style: none;
     color: white;
     font-size: 10px;
 }
-@keyframes shake{
-    10%{
-        transform: rotate(15deg);
-    }
-    20%{
-        transform: rotate(-15deg);
-    }
-    30%{
-        transform: rotate(15deg);
-    }
-    40%{
-        transform: rotate(-15deg);
-    }
-}
+
 #suggest{
     background-color: var(--dbbg);
     width: 100%;
@@ -149,6 +136,9 @@
     padding: 30px 70px;
 }
 @media(max-width:992px){
+    .cont{
+        font-size: 5px;
+    }
     #applink{
         font-size: 8px;
         font-weight : 400;
@@ -311,4 +301,18 @@
 }
 .appimge{
     height: 177px;
+}
+@keyframes shake{
+    10%{
+        transform: rotate(15deg);
+    }
+    20%{
+        transform: rotate(-15deg);
+    }
+    30%{
+        transform: rotate(15deg);
+    }
+    40%{
+        transform: rotate(-15deg);
+    }
 }
